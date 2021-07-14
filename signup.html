@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>signup</title>
+<style>
+table,td{border:2px solid black;
+border-width:2;
+padding-collapse:collapse;
+position:center;
+
+}
+th{
+background-color:orange;
+text-align:center;
+}
+
+td{
+padding: 2px;
+text-align:center;
+background-color:dodgerblue;
+}
+
+table{border-spacing:2px;
+}
+
+</style>
+
+</head>
+<body>
+<form method="post" autocomplete="off">
+<table>
+<tr><th colspan="3">SignUp</th></tr>
+<tr><td><label for="fname">FirstName:</label></td><td colspan="2"> 
+<input name="fname"id="fname" type="text"></td></tr>
+<br><br>
+<tr><td><label for="lname">LastName:</label></td><td colspan="2"> 
+<input name="lname" id="lname" type="text"></td></tr>
+<br></br>
+<tr><td><label for="dob">Date of Birth:</label></td><td colspan="2"> 
+<input name="dob" id="dob" type="date"></td></tr>
+<br></br>
+<tr><td><label for="Gender">Gender:</label>
+<td><input name="Gender" id="male" type="radio" value="male">Male</td>
+<td><input name="Gender" id="female" type="radio" value="male">Female</td></td></tr>
+<br></br>
+<tr><td><label for="country">country:</label></td><td colspan="2"> 
+<input name="country" id="country" type="text"></td></tr>
+<br></br>
+<tr><td> <label for="email">Email:</label></td><td colspan="2"> 
+<input name="email" id="email" type="email"></td></tr>
+<br></br>
+<tr><td><label for="tel">Phone:</label></td><td colspan="2"> 
+<input name="tel" id="tel" type="telephone"></td></tr>
+<br></br>
+<tr><td><label for="pword">Password:</label></td><td colspan="2"> 
+<input type="password" id="pword" name="pword"></td></tr>
+<br><br>
+<tr><td><label for="pword">Confirm Password:</label></td><td colspan="2"> 
+<input type="password" id="pword" name="pword"></td></tr>
+<br><br>
+<tr><td colspan="3"> 
+<input type="checkbox">I Agree to the Terms of use </td></tr>
+<br><br>
+ <tr><td><input type="submit" style="background-color:green;"></td><td colspan="2"><input type="submit" value="Cancel" style="background-color:red;"></td></tr>
+</table>
+</form>
+</body>
+</html>

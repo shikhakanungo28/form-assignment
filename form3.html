@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h4{
+color:orange;
+}
+legend{
+color:orange;
+}fieldset{
+border-color:greenyellow;
+}
+</style>
+
+</head>
+<body>
+<!--main frame-->
+<fieldset>
+<h4>Doda Tea Lunch Special</h4>
+<p>Monday Through Friday</p>
+<p>11am-3pm</p>
+<p>$9.95plus tax</p>
+<p>Includes: sandwich,snacks & drinks</p>
+
+<!--first frame-->
+<fieldset>
+<legend>Order Information</legend>
+<table>
+<tr><td><label for="name">Name:</label></td></tr>
+ <tr><td><input type="text" id="name" name="name"></td></tr>
+<br><br> 
+<tr>
+<td><input type="radio" id="male" name="Here">Here</td></tr>
+<tr><td><input type="radio" id="female" name="To Go">To Go</td></tr><br><br>
+</table>
+</fieldset>
+
+<!--second frame-->
+<fieldset>
+<legend>Sandwiches</legend>
+<table>
+<tr><td><h3>Monday</h3></td></tr>
+<tr>
+<td><input type="radio" id="male" name="Tomato Mozzarella">Tomato Mozzarella</td></tr>
+<tr><td><input type="radio" id="female" name="Chicken Salad ">Chicken Salad </td></tr><br><br>
+
+<tr><td><h3>Tuesday</h3></td></tr>
+<tr>
+<td><input type="radio" id="male" name= "Greek Salad Wrap">Greek Salad Wrap</td></tr>
+<tr><td><input type="radio" id="female" name="Toto  Wrap ">Toto  Wrap</td></tr><br><br>
+
+<tr><td><h3>Wednesday</h3></td></tr>
+<tr>
+<td><input type="radio" id="male" name= "Red Pepper Hummus Wrap">Red Pepper Hummus Wrap</td></tr>
+<tr><td><input type="radio" id="female" name="Rosted Turkey ">Rosted Turkey</td></tr><br><br>
+
+<tr><td><h3>Thrusday</h3></td></tr>
+<tr>
+<td><input type="radio" id="male" name= "Carrot Ginger Hummus Wrap">Carrot Ginger Hummus Wrap</td></tr>
+<tr><td><input type="radio" id="female" name="Egg Salad ">Egg Salad</td></tr><br><br>
+
+<tr><td><h3>Friday</h3></td></tr>
+<tr>
+<td><input type="radio" id="male" name= "Dabo Wrap">Dabo Wrap</td></tr>
+<tr><td><input type="radio" id="female" name="Tuna Salad ">Tuna Salad</td></tr><br><br>
+<tr><td><hr></td></tr>
+<tr>
+<td><input type="radio" id="male" name= "Gluten Free Bread(75% extra) ">Gluten Free Bread(75% extra)</td></tr>
+</table>
+</fieldset>
+
+<!--third frame-->
+<fieldset>
+<legend>Snacks</legend>
+<table>
+<tr><td><h3>Snacks<h3></td></tr>
+<tr>
+<td><input type="radio" id="male" name="Apple">Apple</td></tr>
+<tr><td><input type="radio" id="female" name=" Banana">Banana</td></tr>
+<tr><td><input type="radio" id="female" name=" Potato Chips">Potato Chips</td></tr><br><br>
+</table>
+</fieldset>
+
+<!--fourth frame-->
+<fieldset>
+<legend>Drinks</legend>
+<table><tr><td>Drinks</tr></td>
+<tr><td>
+<input list="Drinks">
+<datalist id="Drinks">
+<option value="Hot Black Tea-Keemun" autofocus>
+<option value="Turkeish Tea">
+<option value="Afgani tea">
+<option value="Indian Masala kullhar Tea">
+<option value="black Tea">
+<option value="Ice Tea">
+<option value="Lemon Tea">
+</option>
+</datalist></tr></td><br><br>
+<tr><td><hr></td></tr>
+<tr><td style="text-align:center"><input type="checkbox">Large Drinks(75% extra)</td></tr>
+</table>
+</fieldset><br><br>
+<tr><td><input type="submit" value="Place Order" Style="background-color:orange; text-align:center;"></td></tr>
+
+
+</fieldset>
+</body>
+</html>
